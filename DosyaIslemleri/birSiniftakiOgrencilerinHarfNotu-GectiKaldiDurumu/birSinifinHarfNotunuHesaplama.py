@@ -46,7 +46,7 @@ def kalanlarGecenler(satir):
         with open("gecenler.txt", "a", encoding="utf-8") as gecenlerFile:
             gecenlerFile.write(satir+"\n")
 
-with open("dosya.txt","r",encoding="utf-8") as file:
+with open("dosya.txt", "r", encoding="utf-8") as file:
     eklenecekler_listesi = []
     for i in file:
         eklenecekler_listesi.append(notHesapla(i))

@@ -1,0 +1,11 @@
+Fernando Muslera,Galatasaray
+Atiba Hutchinson,Beşiktaş
+Mesut Özil Kjaer,Fenerbahçe
+Mustafa MUHAMMED ,Galatasaray
+Raşit Gezzal,Beşiktaş
+Ozan Tufan,Fenerbahçe
+Radamel Falcao,Galatasaray
+Serdar Aziz,Fenerbahçe
+Emre Akbaba,Galatasaray
+Gökhan Töre,Beşiktaş
+İrfan Can Kahveci,Fenerbahçe
