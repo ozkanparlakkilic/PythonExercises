@@ -5,13 +5,12 @@ from email.mime.text import MIMEText
 import sys
 
 try:
-    with open("mail.txt", "r", encoding="utf-8") as file:
+    with open("mailGonderme/mail.txt", "r", encoding="utf-8") as file:
         for i in file:
             i = i.split(",")
             mesaj = MIMEMultipart()
 
-            mesaj["From"] = "gonderen mail"
-            print(i[1])
+            mesaj["From"] = "prlkklc@gmail.com"
             mesaj["To"] = i[1]
 
             mesaj["Subject"] = "Smtp Mail Gönderme"
@@ -25,7 +24,7 @@ try:
             mail = smtplib.SMTP("smtp.gmail.com", 587)
             mail.ehlo()
             mail.starttls()
-            mail.login("gonderen mail", "parola")
+            mail.login("prlkklc@gmail.com", "159753ts")
             mail.sendmail(mesaj["From"], mesaj["To"], mesaj.as_string())
 
             print("Mail Başarıyla gönderildi")
